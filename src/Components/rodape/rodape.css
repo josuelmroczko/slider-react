@@ -4,6 +4,7 @@
      top: 1146px;
      left: 0;
 
+
 }
 footer img{
     
@@ -32,6 +33,7 @@ height: 240px;
     left: 1%;
     top:50px;
     text-align: center;
+  
 
   }
 
@@ -71,4 +73,11 @@ color: #ffffff;
     color: #FE6C05;
 }
 
+
+
+@media screen and (max-width: 1240px){
+  footer img{
+  max-width: 100%;
+    
+  }}
  

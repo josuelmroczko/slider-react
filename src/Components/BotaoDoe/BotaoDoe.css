@@ -1,5 +1,6 @@
 .bntDoe{
     position: absolute;
+    max-width: 100%;
     left: 1120px;
     top: 40px;
     display: flex;
@@ -21,3 +22,4 @@
 .bntDoe:hover{
     background-color:#20B1C1;
 }
+
