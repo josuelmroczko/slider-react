@@ -1,6 +1,7 @@
 .bannerconteudo {
     position: absolute;
-    left: 600px;
+    right: 10%;
+
     top: 250px;
     right: 66px;
     
@@ -10,6 +11,7 @@
     background: rgba(245, 245, 245, 0.85);
     box-shadow: 0px 2.62133px 2.62133px rgba(0, 0, 0, 0.15);
     border-radius: 6.55333px;
+  
     
   
     } 
@@ -29,6 +31,7 @@
     font-weight: 600;
     font-size: 31.456px;
     line-height: 37px;
+
     
     color: #FE6C05;
     }
@@ -76,7 +79,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 26.8569px;
-    line-height: 40px;
+    line-height: 20px;
     text-align: center;
     
     color: #FFFFFF;
@@ -91,49 +94,138 @@
         background-color:#20B1C1 ;
     }
    
-    @media screen and (max-width:  370px){
-        .bannerconteudo  {
+     /*/////////////////TABLETE//////////////////////*/
+
+    @media screen and (max-width:  830px){
+        .bannerconteudo   {
       
-      max-width: 100%;
-      height: 30%;
-      left: 2%;
-      top: 150px;
+      position: absolute;     
+      top: 200px; 
+      width: 70%;
+      height: 300px;
+   
       
     
         }
        }
-       @media screen and (max-width:  370px){
-        .botaosaibamais button{
-     position: absolute;
-     left: 40%;
-     width: 78px; 
-     top: 150px;
-     font-size: 13px;
-   }
-       }
-       @media screen and (max-width: 370px){
+       @media screen and (max-width:  830px){
         .titulobanner{
-     position: absolute;
-     left: 20px;
-     width: 100%;
-     font-size: 15px;
       
-        }}
-        @media screen and (max-width: 370px){
-            .textobanner p{
-         position: absolute;
-         left: 0px;
-         width: 100%;
-         
-         bottom: 0;
-         font-size: 12px;
-          
-            }}
-            @media screen and (max-width: 370px){
-                .barratitulo{
-             position: absolute;
-            height: 20px;
-            top: 30px;
-            left: 15px;
-              
-                }}
+      font-size: 24px;
+      left: 5%;
+      max-width: 98%;
+      top: -30px;
+     
+ 
+
+   
+      
+    
+        }
+       }
+       @media screen and (max-width:  830px){
+        .barratitulo  {
+      
+      font-size: 24px;
+      left: 1%;
+      top: 10px;
+   
+      
+    
+        }
+       }
+
+       @media screen and (max-width:  830px){
+        .textobanner  {
+      
+      font-size: 18px;
+      top: 30%;
+      
+
+    
+        }
+       }
+       @media screen and (max-width:  830px){
+        .botaosaibamais button {
+      
+      font-size: 18px;
+    width: 148px;
+    font-size: 21px;
+    top: 255px;
+    left: 35% ;
+    
+        }
+       }
+       
+
+
+
+       
+
+       /*/////////////////Mobile//////////////////////*/
+       
+    @media screen and (max-width:  360px){
+        .bannerconteudo   {
+      
+      position: absolute;     
+      top:120px; 
+      width: 90%;
+      height: 200px;
+      left: 5%;
+   
+      
+    
+        }
+       }
+       @media screen and (max-width:  360px){
+        .titulobanner{
+      
+      font-size: 15px;
+      left: 5%;
+      max-width: 99%;
+      top: 0px;
+     
+      line-height: 20px;
+
+   
+      
+    
+        }
+       }
+       @media screen and (max-width:  360px){
+        .barratitulo  {
+      
+      font-size: 24px;
+      left: 1%;
+      top: 15px;
+   
+      
+    
+        }
+       }
+
+       @media screen and (max-width:  360px){
+        .textobanner  {
+      
+      font-size: 11px;
+      top: 38%;
+      left: 0;
+      padding: 0;
+      width: 100%;
+     
+      line-height: 20px;
+
+    
+        }
+       }
+       @media screen and (max-width:  360px){
+        .botaosaibamais button {
+      
+      font-size: 18px;
+    width: 92px;
+    height: 22px;
+    font-size: 13px;
+    top: 85%;
+    left: 25%;
+        }
+       }

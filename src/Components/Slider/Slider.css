@@ -15,6 +15,7 @@
   position: absolute;
   opacity: 0;
   transition: opacity ease-in-out 0.4s;
+  
 
 }
 .slide img {
@@ -85,10 +86,10 @@
    
     
   }}
+  @media screen and (max-width: 360px){
+  .container-slider {
+  height: 260px;
+   
+    
+  }}
 
-  @media screen and (max-width: 370px){
-    .slide img {
-     position: absolute;
-     height: 260px;
-      
-    }}

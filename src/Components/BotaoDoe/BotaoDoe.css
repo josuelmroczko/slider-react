@@ -1,9 +1,5 @@
 .bntDoe{
-    position: absolute;
-    max-width: 100%;
-    left: 1120px;
-    top: 40px;
-    display: flex;
+ 
 
     font-family: 'Poppins';
     font-style: normal;
@@ -23,3 +19,8 @@
     background-color:#20B1C1;
 }
 
+@media screen and (max-width: 370px){
+    .bntDoe{
+        font-size: 12px;
+    }}
+ 
