@@ -4,9 +4,13 @@ function QuemSomos (){
     return(
 <div className='quemsomosvidio'>
 
+
+    
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wTfmgB3mi-4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 <div className='quemsomos'>
+<div className="barraquemsomos"></div>
 <h6>QUEM SOMOS </h6>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nulla mi. 

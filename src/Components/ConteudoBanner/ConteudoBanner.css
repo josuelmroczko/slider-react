@@ -1,233 +1,198 @@
 .bannerconteudo {
+  position: absolute;
+  right: 10%;
+
+  top: 250px;
+  right: 66px;
+
+  width: 688px;
+  height: 283px;
+
+  background: rgba(245, 245, 245, 0.85);
+  box-shadow: 0px 2.62133px 2.62133px rgba(0, 0, 0, 0.15);
+  border-radius: 6.55333px;
+
+
+
+}
+
+.titulobanner {
+
+  position: absolute;
+  left: 67px;
+  width: 400px;
+  text-align: left;
+
+
+  height: 74.58px;
+
+
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31.456px;
+  line-height: 37px;
+  font-family: 'Roboto', sans-serif;
+
+  color: #FE6C05;
+}
+
+.textobanner {
+
+  position: absolute;
+  left: 35px;
+  right: 35px;
+  top: 123px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.592px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #000000;
+
+
+}
+
+.barratitulo {
+
+  position: absolute;
+  width: 8px;
+  left: 55px;
+  top: 50px;
+  height: 59px;
+  bottom: 51.38%;
+
+  background: #FE6C05;
+}
+
+
+.botaosaibamais button {
+  position: absolute;
+  top: 230px;
+  left: 250px;
+  width: 185px;
+  height: 40px;
+
+  border: none;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26.8569px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  background-color: #FF7017;
+  box-shadow: 0px 2.68569px 2.68569px rgba(0, 0, 0, 0.15);
+  border-radius: 6.71424px;
+
+
+}
+
+.botaosaibamais button:hover {
+  background-color: #20B1C1;
+}
+
+/*/////////////////TABLETE//////////////////////*/
+
+@media screen and (max-width: 830px) {
+  .bannerconteudo {
+
     position: absolute;
-    right: 10%;
+    top: 200px;
+    width: 70%;
+    height: 300px;
+  }
 
-    top: 250px;
-    right: 66px;
-    
-    width: 688px;
-    height: 283px;
-    
-    background: rgba(245, 245, 245, 0.85);
-    box-shadow: 0px 2.62133px 2.62133px rgba(0, 0, 0, 0.15);
-    border-radius: 6.55333px;
-  
-    
-  
-    } 
-    .titulobanner{
-     
-    position: absolute;
-    left: 67px;
-    width: 400px;
-    text-align: left;
-    
-    
-    height:74.58px;
-    
-    
+  .titulobanner {
+    font-size: 24px;
+    left: 5%;
+    max-width: 98%;
+    top: -30px;
+  }
 
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.456px;
-    line-height: 37px;
-    font-family: 'Roboto', sans-serif;
-    
-    color: #FE6C05;
-    }
-    
-    .textobanner{
-    
-    position: absolute;
-    left: 35px;
-    right: 35px;
-    top: 123px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23.592px;
-    line-height: 35px;
-    text-align: center;
-    
-    color: #000000;
-    
-    
-    }
-    .barratitulo{
-    
-        position: absolute;
-        width: 8px;
-        left: 55px;
-        top: 50px;
-        height: 59px;
-        bottom: 51.38%;
-        
-        background: #FE6C05;
-    }
-    
-    
-    .botaosaibamais button{
-    position: absolute;
-    top: 230px;
-    left: 250px;
-    width: 185px;
-    height: 40px;
-    
-    border: none;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 26.8569px;
-    line-height: 20px;
-    text-align: center;
-    
-    color: #FFFFFF;
-       
-       background-color: #FF7017;
-        box-shadow: 0px 2.68569px 2.68569px rgba(0, 0, 0, 0.15);
-        border-radius: 6.71424px;
-        
-        
-    }
-    
-    .botaosaibamais button:hover{
-        background-color:#20B1C1 ;
-    }
-   
-     /*/////////////////TABLETE//////////////////////*/
+  .barratitulo {
 
-    @media screen and (max-width:  830px){
-        .bannerconteudo   {
-      
-      position: absolute;     
-      top: 200px; 
-      width: 70%;
-      height: 300px;
-   
-      
-    
-        }
-       }
-       @media screen and (max-width:  830px){
-        .titulobanner{
-      
-      font-size: 24px;
-      left: 5%;
-      max-width: 98%;
-      top: -30px;
-     
- 
+    font-size: 24px;
+    left: 1%;
+    top: 10px;
+  }
 
-   
-      
-    
-        }
-       }
-       @media screen and (max-width:  830px){
-        .barratitulo  {
-      
-      font-size: 24px;
-      left: 1%;
-      top: 10px;
-   
-      
-    
-        }
-       }
+  .textobanner {
 
-       @media screen and (max-width:  830px){
-        .textobanner  {
-      
-      font-size: 18px;
-      top: 30%;
-      
+    font-size: 18px;
+    top: 30%;
+  }
 
-    
-        }
-       }
-       @media screen and (max-width:  830px){
-        .botaosaibamais button {
-      
-      font-size: 18px;
+  .botaosaibamais button {
+
+    font-size: 18px;
     width: 148px;
     font-size: 21px;
     top: 255px;
-    left: 35% ;
-    
-        }
-       }
-       
+    left: 35%;
+
+  }
+}
 
 
 
-       
 
-       /*/////////////////Mobile//////////////////////*/
-       
-    @media screen and (max-width:  360px){
-        .bannerconteudo   {
-      
-      position: absolute;     
-      top:120px; 
-      width: 90%;
-      height: 200px;
-      left: 5%;
-   
-      
-    
-        }
-       }
-       @media screen and (max-width:  360px){
-        .titulobanner{
-      
-      font-size: 15px;
-      left: 5%;
-      max-width: 99%;
-      top: 0px;
-     
-      line-height: 20px;
 
-   
-      
-    
-        }
-       }
-       @media screen and (max-width:  360px){
-        .barratitulo  {
-      
-      font-size: 24px;
-      left: 1%;
-      top: 15px;
-   
-      
-    
-        }
-       }
 
-       @media screen and (max-width:  360px){
-        .textobanner  {
-      
-      font-size: 11px;
-      top: 38%;
-      left: 0;
-      padding: 0;
-      width: 100%;
-     
-      line-height: 20px;
+/*/////////////////Mobile//////////////////////*/
 
-    
-        }
-       }
-       @media screen and (max-width:  360px){
-        .botaosaibamais button {
-      
-      font-size: 18px;
+@media screen and (max-width: 360px) {
+  .bannerconteudo {
+
+    position: absolute;
+    top: 120px;
+    width: 90%;
+    height: 200px;
+    left: 5%;
+
+  }
+
+  .titulobanner {
+
+    font-size: 15px;
+    left: 5%;
+    max-width: 99%;
+    top: 0px;
+
+    line-height: 20px;
+  }
+
+  .barratitulo {
+
+    font-size: 24px;
+    left: 1%;
+    top: 15px;
+  }
+
+  .textobanner {
+
+    font-size: 11px;
+    top: 38%;
+    left: 0;
+    padding: 0;
+    width: 100%;
+
+    line-height: 20px;
+  }
+
+  .botaosaibamais button {
+
+    font-size: 18px;
     width: 92px;
     height: 22px;
     font-size: 13px;
     top: 85%;
     left: 25%;
-        }
-       }
+  }
+}
