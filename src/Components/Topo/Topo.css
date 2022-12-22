@@ -31,7 +31,8 @@ a {
     margin-left: 30px;
 
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+   
     text-decoration: none;
     color: #525252;
     font-style: normal;

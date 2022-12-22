@@ -43,7 +43,7 @@ iframe {
     top: 100px;
     right: 83px;
 
-    font-family: 'Poppins';
+    font-family: 'Poppins' ;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -63,7 +63,7 @@ iframe {
 
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     text-align: center;

@@ -55,6 +55,7 @@ height: 73px;
 left: 68%;
 top: 50px;
 text-align: center;
+
   }
   .rodapetexto{
     font-family: 'Poppins';
@@ -63,14 +64,22 @@ font-weight: 800;
 font-size: 18px;
 line-height: 27px;
 color: #ffffff;
+font-family: 'Poppins';
+    font-weight: 100;
 }
 .textofooter1 h2{
     color: #FE6C05;
+    font-family: 'Poppins';
+    font-weight: 900;
 }
 .textofooter2 h2{
     color: #FE6C05;
+    font-family: 'Poppins';
+    font-weight: 900;
 }.textofooter3 h2{
     color: #FE6C05;
+    font-family: 'Poppins';
+    font-weight: 900;
 }
 
 
