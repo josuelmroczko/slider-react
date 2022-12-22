@@ -19,8 +19,6 @@ function Menu() {
 
                     <button className="botao">Doe Agora</button>
                 </div>
-
-
             </div>
 
         </header>

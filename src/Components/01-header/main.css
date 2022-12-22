@@ -1,19 +1,26 @@
 .header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    width: 85%;
-    height: 104px;
+    width: 90%;
+    height: 100px;
     margin: auto;
 }
 
 .logo {
-    width: 120px;
-    height: 104px;
+    margin-top: 5px;
+    width: 113px;
+    height: 90px;
 }
 
 .menu__links {
     display: none;
+}
+
+.menu__responsivo {
+    /* position: absolute; */
+    top: 20px;
+    width: 63%;
 }
 
 .menu__link {
@@ -26,17 +33,16 @@
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
-    width: 190px;
+    width: 100%;
 }
 
-/* .menu__conteiner{
-    height: 60px;
+.menu__conteiner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 50%;
-} */
-
+    justify-content: space-around;
+    width: 54%;
+    margin-top: 20px;
+}
 
 
 .menu__icon {
@@ -46,7 +52,7 @@
 }
 
 .botao {
-    background-color: #FF7017;
+    background: linear-gradient(180deg, #FE904C 0%, #FF7017 100%);
     border-radius: 3px;
     border: none;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
@@ -56,11 +62,18 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
     text-align: center;
     height: 21px;
     width: 87px;
     text-transform: uppercase;
+    /* --- Botão Menu responsivo --- */
+    /* background: #9747FF;
+    border-radius: 5px;
+    height: 35px;
+    width: 160px;
+    color: #f5f5f5;
+    font-size: 20px;
+    margin-top: 15px; */
 }
 
 .botao:hover {
@@ -71,14 +84,16 @@
 @media(min-width: 800px) {
     .header {
         justify-content: normal;
+        align-items: center;
         justify-content: space-around;
         width: 95%;
         height: 80px;
     }
-        .logo {
-            width: 100px;
-            height: 77px;
-        }
+
+    .logo {
+        width: 100px;
+        height: 77px;
+    }
 
     .menu__links,
     .menu__responsivo {
@@ -87,7 +102,7 @@
         align-items: center;
     }
 
-    .menu__responsivo{
+    .menu__responsivo {
         justify-content: space-around;
         min-width: 590px;
     }
