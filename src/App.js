@@ -1,23 +1,32 @@
-import './App.css';
-import BotaoDoe from './Components/BotaoDoe';
-import ConteudoBanner from './Components/ConteudoBanner';
-import QuemSomos from './Components/QuemSomos';
-import Rodape from './Components/rodape';
-import Slider from './Components/Slider/Slider'
-import BotoesTopo from './Components/Topo';
 
+import './App.css';
+
+// import FundoBotoes from './Componentes/FundoBotoes';
+// import BotaoDoe from './Componentes/BotaoDoe';
+// import BotoesTopo from './Componentes/BotoesTopo/BotoesTopo';
+// import Logo from './Componentes/Logo';
+
+import Menu from './Components/01-header';
+
+// import Banner from './Componentes/02-banner';
+
+import Hero from './Components/03-hero';
+
+import Footer from './Components/04-footer';
 
 
 function App() {
   return (
-    <>
-      <Slider />
-      <BotoesTopo/>
-      <BotaoDoe/>
-      <QuemSomos/>
-      <Rodape/>
-      <ConteudoBanner/>
-    </>
+    <div className="App">
+      <Menu />
+
+      {/* <Banner /> */}
+
+      <Hero />
+
+      <Footer />
+
+    </div>
   );
 }
 
