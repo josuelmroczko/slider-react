@@ -14,8 +14,8 @@ iframe {
 .section__quem {
     width: 80%;
     margin: auto;
-    padding-top: 20px;
-    margin-bottom: 30px;
+    padding-top: 15px;
+    margin-bottom: 20px;
 }
 
 .titulo__empresa {
@@ -69,6 +69,12 @@ iframe {
 .circle__paragrafo--wrap {
     width: 70%;
     word-wrap: wrap;
+}
+
+.cirlce--wrap{
+    /* word-wrap: wrap; */
+    
+    word-break: break-word;
 }
 
 @media (min-width: 800px){

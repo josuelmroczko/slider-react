@@ -15,7 +15,7 @@ function QuemSomos() {
                     <div className="circle__info">
                         <p className="circle__paragrafo--wrap">
                             10 anos
-                            de
+                            de <br />
                             história
                         </p>
                     </div>
